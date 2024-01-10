@@ -1,4 +1,4 @@
-FROM node:6.14.1-slim
+FROM node:iron-bookworm-slim
 
 RUN apt-get update
 RUN apt-get install -y firewalld beep
